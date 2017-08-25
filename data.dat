@@ -1,0 +1,56 @@
+*numberofsheets
+1
+ngauss
+2
+nrow, ncol
+200 200
+xlength (50 hexagonos de longitud con a0=.139)12.037753 30:  7.2226518, 25:6.01888 NOTE: This length is relative to lattice parameter A0, NOT A1 (Brenner)
+2000 2000
+lambda_ini
+1.018
+lattice parameter
+0.142
+nanotube numbers
+10 10
+Want to specify the chirality independently? 1 is yes, followed by the angle (0 is zig-zag and 30 is arm-chair)
+0
+30.
+What potential??
+22
+Code: 1 is bending, 2 is twisting, 3 is compression with end nodes totally clamped, 4 is compression with only x and 3dofs prescribed, 5 is load at one end and the other fixed, and 6 is squeeze
+3
+Angle if Code is 1 or 2, and percentage of compression if Code is 3 or 4, and percentage of radius squeeze if Code is 6
+800.0
+nloadstep
+800
+W_hat?(relax at consitutive level, 1 is yes)
+1
+critglobal
+5.d-5
+critlocal
+1.d-9
+Want random imperfections to be introduced in the initial guesses? (1 yes)
+1
+Amplitude of the random imperfections (as a fraction of bond length)
+0.05
+Number of ghost rows at each end
+0
+Want van der Waals??
+1
+ngauss_vdw for integration of non-bonded term?
+12
+Cut-off radius?
+0.01
+Bonded distance?
+0.4
+Parameter A of LJ
+24.3d-7
+Parameter sigma of LJ
+0.142
+Parameter y0 of LJ
+2.7
+How often update the neighbors?
+40
+
+
+
